@@ -1,7 +1,7 @@
 import discord
 import os
-import requests ####
-import json #### 
+import requests 
+import json 
 import random
 import emoji
 
@@ -41,7 +41,7 @@ exercises=['Go for a walk! https://media.giphy.com/media/omHPYZttAVAAw/giphy.gif
            'Find some friends and throw a frisbee','Lets do some exercise! https://media.giphy.com/media/Y3wnbT1OLWur4th15c/giphy.gif']
 #---------------------------#
 
-
+#Functions#
 def contains_depression_traces(message):
   depression_keywords = ["kill myself", "cut myself", "I want to die", "hate myself", "end my life", "self harm", "i don't want to live", "harm", "die"]
   sentiment_analyze = SentimentIntensityAnalyzer()
@@ -118,14 +118,13 @@ def happy_response():
 
 #---------------------------------------#
 
+#Bot responses#
 
 def get_quote(): ####
   response = requests.get("https://zenquotes.io/api/random") #get response from api
   json_data = json.loads(response.text) #converts response to json #response.text --> from api documentation
   quote = json_data[0]['q'] + "\n-" + json_data[0]['a']
   return(quote)
-
-
 
 client = discord.Client()
 

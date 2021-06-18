@@ -2,6 +2,7 @@
 Let's Talk Bot is an AI powered mental health discord bot to boost our self esteem, help us cope up with stress and recommends cool activities to relax. It uses Vader Sentiment Analysis tool of the nltk library. 
 The bot can be integrated with any community server to provide self-care support. 
 
+Link for the website shown in the image below : https://akkk12.github.io/letstalk/
 ![image](https://user-images.githubusercontent.com/69391607/122519330-f953ef80-d02f-11eb-8639-984a9e546b34.png)
 
 # Features of the Bot
@@ -15,7 +16,6 @@ https://youtu.be/XftFUpWqaQQ
 
 
 
-Link for the website shown in the image below : https://akkk12.github.io/letstalk/
 ![image](https://user-images.githubusercontent.com/69391607/122519278-e8a37980-d02f-11eb-9341-651c21de3ae4.png)
 
 

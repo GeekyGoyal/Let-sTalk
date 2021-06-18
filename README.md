@@ -1,4 +1,4 @@
-# Let's Talk Bot
+# Let's Talk - Discord Bot
 Let's Talk Bot is an AI powered mental health discord bot to boost our self esteem, help us cope up with stress and recommends cool activities to relax. It uses Vader Sentiment Analysis tool of the nltk library. 
 The bot can be integrated with any community server to provide self-care support. 
 
